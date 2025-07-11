@@ -1,0 +1,52 @@
+const lavish = require("./second")
+// user/file input header file
+
+console.log("I am Good",lavish);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1411" height="216" alt="Image" src="https://github.com/user-attachments/assets/4cb5a6a4-319e-42e9-94f3-a1120c77864e" />
+
+
+
