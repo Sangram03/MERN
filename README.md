@@ -1,4 +1,5 @@
-<center> MERN DEV
+## MERN DEV
+<img src="https://i.imgur.com/dBaSKWF.gif" height="70" width="100%">
 
 | **No**  | **Name**                                    |                          **Link** 🔗                          |
 |:-----------------------:|:--------------------------------------------------:|:-----------------------------------------------------------:|
@@ -10,4 +11,9 @@
 |  06                |  **SupraBase** 📔🔖   |    [Solution](https://github.com/Sangram03/MERN/tree/main/SupraBase)   |
 
 
-</center>
+
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmdtb2gycTl1ZGQxaTh3N2V1NTQxaXF4dWswYm9icGEzaXRwcWVjcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TlK63Euc9KArc2a0kEw/giphy.gif" height="70" width="100%">
+
+
+
+
