@@ -5,6 +5,69 @@ A lightweight and flexible **Node.js + Express** boilerplate for building RESTfu
 
 ---
 
+---
+
+## ✅ Step-by-Step Express Setup
+
+### 🔹 1. **Initialize a new Node.js project**
+
+```bash
+npm init -y
+```
+
+### 🔹 2. **Install Express**
+
+```bash
+npm install express
+```
+
+---
+
+## ✅ Common Additional Packages
+
+Here are some commonly used packages with Express:
+
+| Package           | Command                          | Purpose                              |
+| ----------------- | -------------------------------- | ------------------------------------ |
+| **dotenv**        | `npm install dotenv`             | Manage environment variables         |
+| **cors**          | `npm install cors`               | Enable Cross-Origin requests         |
+| **mongoose**      | `npm install mongoose`           | MongoDB ODM                          |
+| **nodemon** (dev) | `npm install --save-dev nodemon` | Auto-restarts server on file changes |
+| **bcryptjs**      | `npm install bcryptjs`           | Password hashing                     |
+| **jsonwebtoken**  | `npm install jsonwebtoken`       | JWT auth                             |
+| **multer**        | `npm install multer`             | Handle file uploads                  |
+| **validator**     | `npm install validator`          | Input validation                     |
+
+---
+
+## ✅ Sample Express Server
+
+```js
+// index.js
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+
+dotenv.config();
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// Routes
+app.get('/', (req, res) => {
+  res.send('API is working!');
+});
+
+// Server
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+```
+
+---
+
+
 ## 📦 Features
 
 - ⚡ Fast and minimal Express server
@@ -18,7 +81,8 @@ A lightweight and flexible **Node.js + Express** boilerplate for building RESTfu
 
 ## 📁 Folder Structure
 
-```
+
+``
 
 express-api/
 │
@@ -31,7 +95,7 @@ express-api/
 ├── server.js           # Entry point
 ├── package.json        # Project metadata and scripts
 
-````
+``
 
 ---
 
