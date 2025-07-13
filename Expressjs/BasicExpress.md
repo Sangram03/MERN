@@ -82,7 +82,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 ## 📁 Folder Structure
 
 
-``
+```bash
 
 express-api/
 │
@@ -95,7 +95,7 @@ express-api/
 ├── server.js           # Entry point
 ├── package.json        # Project metadata and scripts
 
-``
+```
 
 ---
 
